@@ -291,8 +291,8 @@
   
   .images img {
     border-radius: 50%;
-    width: 200px; /* Adjusted image width */
-    height: 200px; /* Adjusted image height */
+    width: 50px; /* Adjusted image width */
+    height: 50px; /* Adjusted image height */
     object-fit: cover;
     margin-right: 2%;
     margin-left: 0%;
@@ -451,7 +451,7 @@
     }
   
     .images img {
-      width: 100%;
+      width: 10%;
       height: auto;
     }
   
