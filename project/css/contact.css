@@ -1,0 +1,203 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  #custom-navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #custom-navbar img {
+    width: 100px;
+  }
+  
+  #navbar-list {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  #navbar-list li {
+    margin-right: 20px;
+  }
+  
+  #navbar-list li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #main-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Contact Form Styles */
+  #my-form {
+    margin-top: 20px;
+  }
+  
+  #my-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #my-form input[type="text"],
+  #my-form input[type="email"],
+  #my-form input[type="tel"],
+  #my-form textarea,
+  #my-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  #my-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #my-form button:hover {
+    background-color: #555;
+  }
+  
+  /* Footer Styles */
+  .footerContainer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .ctaSection {
+    text-align: center;
+  }
+  
+  .subscribeForm input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .subscribeForm button {
+    padding: 10px 20px;
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .subscribeForm button:hover {
+    background-color: #d00;
+  }
+  footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footerNav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .footerNav ul li a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: "Suez One", serif;
+    font-weight: 300;
+    font-style: normal;
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+  
+  .footerNav ul li a:hover {
+    opacity: 1;
+  }
+  
+  .footerBottom {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .footerBottom p {
+    color: white;
+    font-family: "Suez One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+  }
+  
+  .footerBottom p a[href^="mailto:"] {
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  /* Media Query for 768px width */
+  @media (max-width: 768px) {
+    #custom-navbar {
+      padding: 5px;
+    }
+    
+    #custom-navbar img {
+      width: 80px;
+    }
+    
+    #navbar-list {
+      display: none;
+    }
+    
+    #navbar-list li {
+      margin-right: 0;
+    }
+    
+    #main-container {
+      padding: 10px;
+    }
+    
+    #my-form input[type="text"],
+    #my-form input[type="email"],
+    #my-form input[type="tel"],
+    #my-form textarea,
+    #my-form select {
+      width: calc(100% - 20px);
+      padding: 8px;
+      margin-bottom: 8px;
+    }
+    
+    .subscribeForm input[type="email"] {
+      padding: 8px;
+      margin-bottom: 8px;
+    }
+    
+    .subscribeForm button {
+      padding: 10px 15px;
+    }
+  }
+  

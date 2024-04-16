@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+   
+    <link rel="stylesheet" href="../css/contact.css">
+</head>
+<body>
+    <nav id="custom-navbar">
+        <div id="custom-logo">
+            <img src="../img/logo.jpg" alt="MunchMagnet.com">
+        </div>
+        <ul id="navbar-list">
+            <li><a id="navbar-link" href="../index.html">Home</a></li>
+            <li><a id="navbar-link" href="services.html">Services</a></li>
+            <li><a id="navbar-link" href="partnership.html">Partnership</a></li>
+            <li><a id="navbar-link" href="contact.html">Contact us</a></li>
+            <li><a id="navbar-link" href="aboutus.html">About us</a></li>
+        </ul>
+    </nav>
+    <div id="main-container">
+        <h1 id="main-title">Contact Us</h1>
+        <p>We'd love to hear from you! Feel free to reach out to us with any questions, comments, or feedback you may have.</p>
+        
+        <h2 id="sub-title">Get in Touch</h2>
+        <p>You can contact us via email, phone, or by filling out the form below:</p>
+        
+        <!-- Registration Form -->
+<form id="my-form">
+    <label for="name">Name<span>*</span>:</label>
+    <input type="text" id="name" name="name" required><br>
+    
+    <label for="email">Email<span>*</span>:</label>
+    <input type="email" id="email" name="email" required><br>
+    
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone"><br>
+    
+    <label for="subject">Subject:</label>
+    <input type="text" id="subject" name="subject"><br>
+    
+    <label for="message">Message<span>*</span>:</label><br>
+    <textarea id="message" name="message" rows="4" required></textarea><br>
+    
+    <label for="priority">Priority:</label>
+    <select id="priority" name="priority">
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+    </select><br>
+    
+    <label for="attachment">Attachment:</label>
+    <input type="file" id="attachment" name="attachment"><br>
+    
+    <button type="submit">Submit</button>
+</form>
+
+    </div>
+    <div class="footerContainer">
+        <div class="ctaSection">
+            <h3>Subscribe to Our Newsletter</h3>
+            <p>Stay updated with our latest news and promotions. Subscribe now!</p>
+            <form action="#" method="post" class="subscribeForm">
+                <input type="email" name="email" placeholder="Your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+
+
+            <div class="footerNav">
+
+                <ul>
+                    <li><a id="navbar-link" href="../index.html">Home</a></li>
+                    <li><a id="navbar-link" href="services.html">Services</a></li>
+                    <li><a id="navbar-link" href="partnership.html">Partnership</a></li>
+                    <li><a id="navbar-link" href="contact.html">Contact us</a></li>
+                    <li><a id="navbar-link" href="aboutus.html">About us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerBottom">
+
+            <p class="mobile">Phone: &#9742;<a href="tel:+784567890"> +784567890</a></p>
+            <p>Email: &#9993;<a href="mailto:munchmagnet@gmail.com">customer@munchmagnet.com</a></p>
+
+            <p>Visit our physical store: 3756, Darcel Avenue, Mississauga</p><br>
+
+
+            <p>Copyright &copy; www.MunchMagnet.com. All rights reserved</p>
+        </div>
+</footer>
+
+    <!-- External JavaScript -->
+    <script src="js/contact.js"></script>
+</body>
+</html>
